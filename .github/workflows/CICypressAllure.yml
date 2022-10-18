@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: npm i
     - name: Run tests
-      run: tests:Headless
+      run: npx cypress run
     - name: Generate Report
       if: always()
       run: npx allure generate allure-results -o allure-report --clean
