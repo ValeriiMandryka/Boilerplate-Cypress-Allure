@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Oct 19 13:33:56 UTC 2022","Wed Oct 19 13:33:56 UTC 2022","181","","example to-do app","","example to-do app","displays two todo items by default","displays two todo items by default",""
+"broken","Wed Oct 19 13:39:36 UTC 2022","Wed Oct 19 13:39:36 UTC 2022","149","","example to-do app","","example to-do app","displays two todo items by default","displays two todo items by default",""
