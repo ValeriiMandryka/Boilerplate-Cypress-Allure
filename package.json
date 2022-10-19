@@ -5,14 +5,21 @@
   "main": "index.js",
   "scripts": {
     "tests:Headless": "npx cypress run",
+    "tests:Headled": "npx cypress run --headed",
     "open:Cypress": "npx cypress open",
     "generate:AllureReport":"npx allure generate allure-results --clean -o allure-report && rimraf ./allure-results",
     "open:AllureReport":"allure open  allure-report",
     "clean:AllureResults": "rimraf ./allure-results",
-    "tests-on-Chrome:Hedless": "cypress run --browser chrome",
-    "tests-on-Firefox:Hedless": "cypress run --browser firefox",
-    "tests-on-Edge:Hedless": "cypress run --browser edge",
-    "tests-on-Electron:Hedless": "cypress run --browser electron"
+    "tests-on-Chrome:Headless": "cypress run --browser chrome",
+    "tests-on-Firefox:Headless": "cypress run --browser firefox",
+    "tests-on-Edge:Headless": "cypress run --browser edge",
+    "tests-on-Electron:Headless": "cypress run --browser electron",
+    "tests-on-Chrome:Headed": "cypress run --browser chrome --headed",
+    "tests-on-Firefox:Headed": "cypress run --browser firefox --headed",
+    "tests-on-Edge:Headed": "cypress run --browser edge --headed",
+    "tests-on-Electron:Headed": "cypress run --browser electron --headed",
+    "tests:Local": "cypress run --config baseUrl=https://example.cypress.io/todo --headed",
+    "tests:Stage": "cypress run --config baseUrl=https://google.com --headed"
   },
  
   "author": "",
