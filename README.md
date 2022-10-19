@@ -42,7 +42,8 @@ npm install
 
    ```
    4.2 To open Allure report, run command:
-    ```
+    
+   ```
    npm run open:AllureReport
 
    ```
