@@ -7,8 +7,8 @@
     "tests:Headless": "npx cypress run",
     "tests:Headed": "npx cypress run --headed",
     "open:Cypress": "npx cypress open",
-    "generate:AllureReport":"npx allure generate allure-results --clean -o allure-report && rimraf ./allure-results",
-    "open:AllureReport":"allure open  allure-report",
+    "generate:AllureReport": "npx allure generate allure-results --clean -o allure-report && rimraf ./allure-results",
+    "open:AllureReport": "allure open  allure-report",
     "clean:AllureResults": "rimraf ./allure-results",
     "tests-on-Chrome:Headless": "cypress run --browser chrome",
     "tests-on-Firefox:Headless": "cypress run --browser firefox",
@@ -21,10 +21,10 @@
     "tests:Local": "cypress run --config baseUrl=https://example.cypress.io/todo --headed",
     "tests:Stage": "cypress run --config baseUrl=https://google.com --headed"
   },
- 
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cypress/xpath": "^2.0.2",
     "allure-commandline": "^2.18.1",
     "cypress": "^10.10.0",
     "mocha-allure-reporter": "^1.4.0"
