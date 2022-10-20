@@ -7,6 +7,10 @@ Template repository for project based on Cypress framefork with configurated Git
    1. [Node.js](https://nodejs.org/uk/)
    2. [VSC](https://code.visualstudio.com/download)
    
+##  Plugins:
+   1. [cypress-xpath](https://github.com/cypress-io/cypress-xpath)
+   2. [cypress-real-event](https://github.com/dmtrKovalenko/cypress-real-events)
+
 ## Steps to install project
 
 ## 1. Run command in VSC:
