@@ -6,7 +6,8 @@ module.exports = defineConfig({
     experimentalStudio: true,
     baseUrl: 'https://example.cypress.io/todo',
     reporter: 'mocha-allure-reporter',
-    specPattern: 'cypress/e2e/tests/**/*.js',
+    excludeSpecPattern: 'cypress/e2e/2-advanced-examples/*.js',
+    specPattern: 'cypress/e2e/**/*.js',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
