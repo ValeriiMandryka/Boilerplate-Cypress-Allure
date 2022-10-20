@@ -1,8 +1,12 @@
 # Boilerplate-Playwright-PlaywrightReport-AllureReport
-Template repository for project based on Playwright framefork with configurated GitHub actions and Allure report. Can be used for auto testing on Chromium/Firefox/Webkit browsers and MobileChrome/MobileSafari also icluded Docker
+Template repository for project based on Cypress framefork with configurated GitHub actions and Allure report. Can be used for auto testing on Chrome/Firefox/Efge/Electron browsers with Allure Report. Includes Code Generator
 
 ##  Notice! To run tests on different browsers, browsers should be installed loccaly 
 
+##  Envoirment:
+   1. [Node.js](https://nodejs.org/uk/)
+   2. [VSC](https://code.visualstudio.com/download)
+   
 ## Steps to install project
 
 ## 1. Run command in VSC:
@@ -18,7 +22,10 @@ npm install
 ```
 ## 3. Run tests commands:
 
-    npm run tests:Headless - run tests in headless mode
+    3.1 run tests in headless mode
+       
+       npm run tests:Headless  
+            
     npm run tests:Headed -  run tests in headed mode
     npm run open:Cypress  - opens cypress UI
     npm run generate:AllureReport - generates Allure report
