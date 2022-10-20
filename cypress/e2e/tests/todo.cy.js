@@ -129,7 +129,7 @@ describe('example to-do app', () => {
       // This button only appears when at least one task is checked
       // so this command is implicitly verifying that it does exist.
       // Second, it selects the button so we can click it.
-      cy.contains('Clear completed').click()
+      cy.contains('Clear completed').realClick()
 
       // Then we can make sure that there is only one element
       // in the list and our element does not exist
