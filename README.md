@@ -52,16 +52,16 @@ npm install
    3.10 -  runs tests in Electron in headless mode
    
        npm run tests-on-Electron:Headless 
-   3.11 - runs tests in Chrome in heaed mode
+   3.11 - runs tests in Chrome in headed mode
    
        npm run tests-on-Chrome:Headed 
-   3.12 - runs tests in Firfox in heaed mode
+   3.12 - runs tests in Firfox in headed mode
    
        npm run tests-on-Firefox:Headed 
-   3.13 - runs tests in Edje in heaed mode
+   3.13 - runs tests in Edje in headed mode
    
        npm run tests-on-Edge:Headed  
-   3.14 - runs tests in Electron in heaed mode
+   3.14 - runs tests in Electron in headed mode
        
        npm run tests-on-Electron:Headed 
    3.15 - runs tests on website: "https://example.cypress.io/todo", just for example of command were you can set your own web site adress 
