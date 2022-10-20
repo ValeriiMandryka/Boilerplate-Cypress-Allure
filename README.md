@@ -20,27 +20,56 @@ git clone https://github.com/ValeriiMandryka/Boilerplate-Cypress-AllureReport.gi
 npm install
 
 ```
-## 3. Run tests commands:
+## 3. Run tests commands
 
-    3.1 run tests in headless mode
+   3.1 run tests in headless mode
        
-       npm run tests:Headless  
-            
-    npm run tests:Headed -  run tests in headed mode
-    npm run open:Cypress  - opens cypress UI
-    npm run generate:AllureReport - generates Allure report
-    npm run open:AllureReport  - open Allure report
-    npm run clean:AllureResults - clean Allure results
-    npm run tests-on-Chrome:Headless - runs tests in Chrome in headless mode
-    npm run tests-on-Firefox:Headless - runs tests in Firefox in headless mode
-    npm run tests-on-Edge:Headless - runs tests in Edje in headless mode
-    npm run tests-on-Electron:Headless -  runs tests in Electron in headless mode
-    npm run tests-on-Chrome:Headed - runs tests in Chrome in heaed mode
-    npm run tests-on-Firefox:Headed - runs tests in Firfox in heaed mode
-    npm run tests-on-Edge:Headed  - runs tests in Edje in heaed mode
-    npm run tests-on-Electron:Headed - runs tests in Electron in heaed mode
-    npm run tests:Local - runs tests on website: "https://example.cypress.io/todo", just for example of command were you can set your own web site adress(in Packaje.json file) 
-    npm run tests:Stage - runs tests on website: "https://google.com" , just for example of command were you can set your own web site adress(in Packaje.json file)
+        npm run tests:Headless  
+   3.2 run tests in headed mode    
+   
+        npm run tests:Headed   
+   3.3 opens cypress UI    
+   
+        npm run open:Cypress 
+   3.4 generates Allure report
+   
+       npm run generate:AllureReport
+   3.5 - open Allure report
+       
+       npm run open:AllureReport  
+   3.6 - clean Allure results
+   
+       npm run clean:AllureResults 
+   3.7 - runs tests in Chrome in headless mode
+       
+       npm run tests-on-Chrome:Headless 
+   3.8 - runs tests in Firefox in headless mode
+   
+       npm run tests-on-Firefox:Headless 
+   3.9 - runs tests in Edje in headless mode 
+   
+       npm run tests-on-Edge:Headless 
+   3.10 -  runs tests in Electron in headless mode
+   
+       npm run tests-on-Electron:Headless 
+   3.11 - runs tests in Chrome in heaed mode
+   
+       npm run tests-on-Chrome:Headed 
+   3.12 - runs tests in Firfox in heaed mode
+   
+       npm run tests-on-Firefox:Headed 
+   3.13 - runs tests in Edje in heaed mode
+   
+       npm run tests-on-Edge:Headed  
+   3.14 - runs tests in Electron in heaed mode
+       
+       npm run tests-on-Electron:Headed 
+   3.15 - runs tests on website: "https://example.cypress.io/todo", just for example of command were you can set your own web site adress 
+   
+    cypress run --config baseUrl=https://example.cypress.io/todo --headed
+   3.16 - runs tests on website: "https://google.com" , just for example of command were you can set your own web site adress(in Packaje.json file)
+   
+     npm run tests:Stage 
 
 ## 4. Allure report:
    4.1 To generate Allure report arun follow command after the test that you chose for run
